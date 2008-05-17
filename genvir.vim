@@ -11,10 +11,10 @@ func! s:Genvir()
   call setline(6, 'endfunction')
   call setline(7, '')
   call setline(8, 'ruby << EOF')
-  call setline(9, '   ')
+  call setline(9, ' ')
   call setline(10, 'EOF')
   call setline(11, '')
-  call cursor(9, 3)
-  set ft=vim
+  call cursor(9, 1)
+  set ft=ruby
 endfunc
 
